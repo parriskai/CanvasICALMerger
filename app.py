@@ -10,7 +10,7 @@ import os
 app = Flask(__name__)
 load_dotenv()
 api_key = os.environ["CANVAS_TOKEN"]
-canvas_url = "https://western.instructure.com"
+canvas_url = os.environ["CANVAS_URL"]
 ses = requests.session()
 ses.headers["Authorization"] = "Bearer " + api_key
 
