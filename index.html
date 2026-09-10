@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Class Calendar</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: #111318;
+            color: #f0f1f3;
+        }
+
+        .card {
+            width: min(90%, 440px);
+            padding: 2.5rem;
+            background: #1b1e24;
+            border: 1px solid #2b2f38;
+            border-radius: 16px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0 0 0.75rem;
+            font-size: 1.8rem;
+        }
+
+        p {
+            margin: 0 0 1.75rem;
+            color: #a8adb7;
+            line-height: 1.5;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 0.75rem 1.25rem;
+            border-radius: 8px;
+            background: #3b82f6;
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.15s;
+        }
+
+        .button:hover {
+            background: #2563eb;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="card">
+        <h1>Class Calendar</h1>
+        <p>
+            Subscribe to the calendar to keep your class assignments
+            and due dates in sync.
+        </p>
+
+        <a class="button" href="/classes.ics">
+            Download iCalendar
+        </a>
+    </main>
+</body>
+</html>
