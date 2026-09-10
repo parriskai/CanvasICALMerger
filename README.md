@@ -7,7 +7,7 @@ Just wrote this as a small QOL for my college experince
 to run
 
 - Read the [Canvas documentation](https://developerdocs.instructure.com/get_started#id-1.-get-your-access-key) for instructions on creating your api key
-- Create a .env file with the lines `CANVAS_TOKEN="xxxxxxxxxxxxxxxxxxx[Your API KEY]xxxxxxxxxxxxxxxxxxx"` and `CANVAS_URL="mycanvas.instructure.com"`
+- Create a .env file with the lines `CANVAS_TOKEN="xxxxxxxxxxxxxxxxxxx[YOUR API KEY]xxxxxxxxxxxxxxxxxxx"` and `CANVAS_URL="[YOUR CANVAS URL]"`
 - Install the required packages `pip install -r install.txt`
 - Run the server `python3.14 app.py`
 - Go to `http://[yourserver]:8080`
